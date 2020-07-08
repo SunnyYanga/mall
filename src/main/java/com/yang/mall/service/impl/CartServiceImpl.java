@@ -31,8 +31,6 @@ public class CartServiceImpl implements ICartService {
 
     private static final String CART_REDIS_KEY_TEMPLATE = "cart_%d";
 
-    private String s1;
-
     @Autowired
     private ProductMapper productMapper;
 
